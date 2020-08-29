@@ -2,9 +2,7 @@
     box-sizing:border-box;
     background-color: #ff8dd4;
     display:flex;
-    justify-content:center;
-    transform:none;
-
+    justify-content:center
 }
 
 

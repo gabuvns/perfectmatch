@@ -196,14 +196,14 @@ a:link{
     }
 
     img {   
-        width: 8vh;
-        height: 8vh;
+        width: 6vh;
+        height: 6vh;
     }
     
     .sq, .btn {
         border-radius:20px;
-        width: 10vh;
-        height: 10vh;
+        width: 8vh;
+        height: 8vh;
     }
 
     #footer{
@@ -219,8 +219,8 @@ a:link{
     .links {
         margin-right: 2%;
         width: 24%;
-        height: auto; 
-        font-size:auto;
+        height: 100%; 
+        font-size:0.65em;
     }        
 }
 

@@ -1,0 +1,132 @@
+/* font-family: 'Londrina Solid', cursive; */
+* {
+    box-sizing:border-box;
+    background-color: #ff8dd4;
+    display:flex;
+    justify-content:center
+}
+html, body {
+    margin: 0; 
+    height: 100%;
+     overflow: hidden
+}
+title{
+    display:none;
+}
+.container{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+    /* background-color: purple; */
+}
+
+#options{
+    display: grid;
+    grid-template-areas: "banana grapes cherry watermelon orange apple";
+    grid-gap:15px;
+    margin-bottom: -0.5vh;
+    padding-top: 1%;
+    height: 20vh;
+    /* background-color: yellow; */
+}
+
+.btn {
+    position:relative;
+    color: #333;
+    background-color: #8573ff;
+    box-shadow: 0px 10px #8249ab;
+    border: 4px solid #dbd6ff;
+    border-radius: 20px;
+    height: 7.5vw;
+    width: 7.5vw;
+}
+.btn:hover{
+    top:10px;
+}
+
+
+#table {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:15px;
+    padding-bottom: 1.5%;
+}
+
+#banana{
+    background-color: #7300b7;
+}
+
+#grapes{
+    background-color:#4eb907;
+}
+
+#cherry{
+    background-color:#aac600;
+}
+
+#watermelon{
+    background-color: #d7bb00;
+}
+#orange{
+    background-color: #0183e1;
+
+}
+#apple {
+    background-color: #00b6ce;
+}
+
+#rst{
+    font-family: 'Londrina Solid', cursive;
+    color:#0079d0;
+    background-color: #ffe119;
+    margin-top: 1%;
+    width: 12vw;
+    height: 2.7vw;
+    font-size: 2vw;
+}
+
+#rst:hover {
+    top:3px;
+}
+
+img {
+    background-color: inherit;
+    height: 7vw;
+    width: 7vw;
+    border-radius:20px;
+}
+
+.header{
+    font-size:4.5em;
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+
+}
+#footer{
+    
+    margin-top:0%;
+    line-height: 0.2;
+    font-size:18px;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.links {
+    margin-top:1%;
+    width: auto;
+    height: auto;
+}
+.links:hover{
+    top:3px;
+}
+
+a{
+    font-size:1em;
+    background-color: #8573ff;
+    color: white;
+}
+a:link{
+    text-decoration:none;
+    color:white;
+}

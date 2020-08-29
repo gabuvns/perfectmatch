@@ -1,4 +1,3 @@
-/* font-family: 'Londrina Solid', cursive; */
 * {
     box-sizing:border-box;
     background-color: #ff8dd4;
@@ -21,7 +20,6 @@ title{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: stretch;
-    /* background-color: purple; */
 
 }
 
@@ -39,7 +37,6 @@ title{
     grid-gap:15px;
     margin-bottom: 5%;
     padding-top: 1%;
-    /* background-color: yellow; */
 }
 
 .btn {

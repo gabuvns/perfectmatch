@@ -1,7 +1,7 @@
 "use strict";
 (function main() {
     var selected = -1;
-
+    window.addEventListener("load", function () { window.scrollTo(0, 0); });
     function paintImage(option) {
 
         var element, color;

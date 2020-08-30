@@ -1,12 +1,12 @@
 * {
     box-sizing:border-box;
     background-color: #ff8dd4;
-    display:flex;
     justify-content:center
 }
 
 
 html, body {
+    display:flex;
     margin: 0; 
     height: 100%;
     overflow: hidden;
@@ -24,6 +24,7 @@ title{
 }
 
 #header{
+    display:flex;
     margin-top: -20%;
     font-size:4.5em;
     color: white;
@@ -112,6 +113,7 @@ img {
 }
 
 #footer{
+    display:flex;
     
     margin-top:3%;
     line-height: 0.2;
@@ -147,8 +149,7 @@ a:link{
 /* Tablets */
 @media only screen and (max-device-width:1024px){
     #header{
-        display:inline-block;
-        font-size: 2.5em;
+        font-size: 4em;
         margin-top: -15vh;
     }
 
@@ -170,6 +171,8 @@ a:link{
     }
     
     #footer{
+    display:flex;
+
         margin-bottom: -30%;
         height: 7vh;
     }
@@ -189,10 +192,12 @@ a:link{
 
 /* Mobile phones */
 @media only screen and (max-device-width:480px){
+
     #header{
-        display:inline-block;
+        flex-direction: column;
         font-size: 2.5em;
-        margin-top: -15vh   ;
+        margin-top: -15vh;
+        align-items: center;
     }
 
     img {   
@@ -207,6 +212,8 @@ a:link{
     }
 
     #footer{
+    display:flex;
+        
         margin-bottom: -30%;
         height: 7vh;
     }

@@ -1,5 +1,5 @@
 # Fall Guys Perfect Match Helper
-#### Tired of losing at Fall Guy's perfect match? Your problem's are **OVER**
+#### Tired of losing at Fall Guy's perfect match? Your problems are **OVER**
 Simply choose a fruit and select the square :)
 
 Visit now: https://gabuvns.github.io/perfectmatch/
